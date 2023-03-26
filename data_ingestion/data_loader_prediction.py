@@ -2,8 +2,9 @@ import pandas as pd
 
 class Data_Getter_Pred:
     """
-    This class shall  be used for obtaining the data from the source for prediction. """
-  def __init__(self, file_object, logger_object):
+    This class shall  be used for obtaining the data from the source for prediction.
+"""
+    def __init__(self, file_object, logger_object):
         self.prediction_file='Prediction_FileFromDB/InputFile.csv'
         self.file_object=file_object
         self.logger_object=logger_object
